@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskMaster - Gerenciador de Tarefas</title>
+  <link rel="stylesheet" href="./src/styles/global.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>TaskMaster</h1>
+    <button id="theme-toggle" aria-label="Alternar Tema">🌙</button>
+  </header>
+
+  <main class="app-main">
+    <section class="task-form-section">
+      <form id="task-form">
+        <input type="text" id="task-input" placeholder="Nova tarefa..." required>
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section class="task-board">
+      <div class="task-column" id="todo-column">
+        <h2>A Fazer (<span id="todo-count">0</span>)</h2>
+        <ul class="task-list" id="todo-list"></ul>
+      </div>
+      <div class="task-column" id="done-column">
+        <h2>Concluídas (<span id="done-count">0</span>)</h2>
+        <ul class="task-list" id="done-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
