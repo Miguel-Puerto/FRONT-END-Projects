@@ -1,0 +1,50 @@
+:root {
+  /* Tema Claro - Tons Pastéis e Suaves */
+  --bg-gradient: linear-gradient(135deg, #647dce 0%, #a3eec8 100%);
+  --card-bg: rgba(218, 229, 252, 0.85);
+  --card-border: rgba(71, 89, 114, 0.8);
+  --text-main: #1e293b;
+  --text-muted: #083574;
+  --primary: #6769f1;
+  --primary-hover: #190dff;
+  --danger: #fd0101;
+  --success: #215e49;
+  --shadow: 0 10px 25px -5px rgb(0, 0, 0);
+}
+
+[data-theme="dark"] {
+  /* Tema Escuro - Indigo Escuro Premium */
+  --bg-gradient: linear-gradient(135deg, #5a07c7 0%, #1e1b4b 100%);
+  --card-bg: rgba(31, 34, 39, 0.75);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --text-main: #fbfdff;
+  --text-muted: #e7eaee;
+  --primary: #818cf8;
+  --primary-hover: #45469e;
+  --danger: #f04646;
+  --success: #34d399;
+  --shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg-gradient);
+  background-attachment: fixed;
+  color: var(--text-main);
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 960px;
+}

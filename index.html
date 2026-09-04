@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskMaster Pro - Dashboard</title>
+  <link rel="stylesheet" href="./src/styles/global.css">
+  <link rel="stylesheet" href="./src/styles/components.css">
+  <link rel="stylesheet" href="./src/styles/layout.css">
+</head>
+<body data-theme="dark">
+
+  <div class="app-container">
+    <!-- Cabeçalho -->
+    <header class="app-header">
+      <div class="logo">
+        <span class="logo-icon">✨</span>
+        <h1>TaskMaster Pro</h1>
+      </div>
+      <button id="theme-toggle" class="btn-icon" aria-label="Alternar Tema">🌙</button>
+    </header>
+
+    <!-- Formulário de Nova Tarefa -->
+    <section class="task-form-card">
+      <h2>Criar Nova Tarefa</h2>
+      <form id="task-form">
+        <div class="form-group">
+          <input type="text" id="task-input" placeholder="O que você precisa fazer?" required>
+        </div>
+        <div class="form-group">
+          <input type="url" id="image-input" placeholder="URL da Imagem (opcional, ex: https://...)">
+        </div>
+        <button type="submit" class="btn-primary">➕ Adicionar Tarefa</button>
+      </form>
+    </section>
+
+    <!-- Quadro de Tarefas -->
+    <main class="task-board">
+      <!-- Coluna: A Fazer -->
+      <div class="task-column todo-column">
+        <div class="column-header">
+          <h3>📌 A Fazer <span id="todo-count" class="badge">0</span></h3>
+          <button id="clear-todo-btn" class="btn-clear">Limpar</button>
+        </div>
+        <div class="task-list" id="todo-list"></div>
+      </div>
+
+      <!-- Coluna: Concluídas -->
+      <div class="task-column done-column">
+        <div class="column-header">
+          <h3>✅ Concluídas <span id="done-count" class="badge">0</span></h3>
+          <button id="clear-done-btn" class="btn-clear">Limpar</button>
+        </div>
+        <div class="task-list" id="done-list"></div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
