@@ -4,7 +4,7 @@
 
 ---
 
-### 🚀 Features
+## 🚀 Features
 
 - 📌 **Task Management:** Create tasks with descriptive titles and optional **cover images** via URL.
 - 🔄 **Status Toggling:** Effortlessly move tasks between **To Do** and **Completed** columns.
@@ -15,7 +15,7 @@
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - **HTML5:** Semantic architecture and accessibility.
 - **CSS3:** Custom properties (Variables), Flexbox, CSS Grid, Glassmorphism effects, and CSS gradients.
@@ -24,7 +24,7 @@
 
 ---
 
-### 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 TaskMaster/
