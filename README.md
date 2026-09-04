@@ -1,4 +1,4 @@
-##### ✨ TaskMaster Pro - Task Management Dashboard
+##### **✨ TaskMaster Pro - Task Management Dashboard**
 
 **TaskMaster Pro** is a modern, responsive web application for task management designed with a clean Kanban-style interface. It features image preview support for task cards, dark/light theme toggling, bulk task deletion by status, and full data persistence using local storage.
 
