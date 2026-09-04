@@ -1,10 +1,10 @@
-##### **✨ TaskMaster Pro - Task Management Dashboard**
+## ✨ TaskMaster Pro - Task Management Dashboard
 
 **TaskMaster Pro** is a modern, responsive web application for task management designed with a clean Kanban-style interface. It features image preview support for task cards, dark/light theme toggling, bulk task deletion by status, and full data persistence using local storage.
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - 📌 **Task Management:** Create tasks with descriptive titles and optional **cover images** via URL.
 - 🔄 **Status Toggling:** Effortlessly move tasks between **To Do** and **Completed** columns.
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 - **HTML5:** Semantic architecture and accessibility.
 - **CSS3:** Custom properties (Variables), Flexbox, CSS Grid, Glassmorphism effects, and CSS gradients.
@@ -24,7 +24,7 @@
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```text
 TaskMaster/
@@ -44,22 +44,25 @@ TaskMaster/
     │   └── utils.js
     └── main.js
 ```
-📦 Getting Started
+---
+### 📦 Getting Started
 Prerequisites
 **Make sure you have Node.js installed on your machine.**
 
-###Installation & Run Steps
+---
 
-**-Clone the repository:**
+### Installation & Run Steps
+
+**1**-Clone the repository:
 git clone [https://github.com/your-username/taskmaster.git](https://github.com/your-username/taskmaster.git)
 
-**-Navigate to the project directory:**
+**2**-Navigate to the project directory:
 cd taskmaster
 
-**-Install dependencies:**
+**3**-Install dependencies:
 npm install
 
-**-Start the development server:**
+**4**-Start the development server:
 npm run dev
 
-**-Open your browser and navigate to the local address shown in your terminal (usually http://localhost:5173).**
+**5**-Open your browser and navigate to the local address shown in your terminal (usually http://localhost:5173).**
